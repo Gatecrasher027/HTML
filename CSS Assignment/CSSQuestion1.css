@@ -1,0 +1,49 @@
+header {
+    background-color: #34495f;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    display: block;
+}
+
+.menu li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #344a5f;
+}
+
+.menu li .dropdown a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu li:hover .dropdown {
+    display: block;
+}
